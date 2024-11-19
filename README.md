@@ -31,7 +31,7 @@ git clone https://github.com/rurumimic/.emacs.d
 ## Documentation
 
 - [docs](docs/README.md)
-  - [install](install.md)
+  - [install](docs/install.md)
   - keymap
   - packages
 
