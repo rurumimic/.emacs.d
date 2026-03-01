@@ -2,6 +2,12 @@
 
 ## Install on GNU/Linux
 
+### Debian/Ubuntu
+
+```bash
+sudo apt install --no-install-recommends emacs
+```
+
 ### Arch Linux
 
 ```bash
