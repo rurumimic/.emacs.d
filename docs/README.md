@@ -1,7 +1,7 @@
 # Documentation
 
 - [install](install.md)
-- keymap
+- [key bindings](key-bindings.md)
 - packages
 
 ## .emacs.d

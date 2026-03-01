@@ -33,6 +33,6 @@ git clone https://github.com/rurumimic/.emacs.d
 - [docs](docs/README.md)
   - [install](docs/install.md)
   - tutorial: `C-h t`
-  - keymap
+  - [key bindings](docs/key-bindings.md)
   - packages
 
