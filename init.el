@@ -6,7 +6,6 @@
 (tool-bar-mode -1)
 (tooltip-mode -1)
 (set-fringe-mode 5)
-(set-fringe-mode 5)
 
 ;; Backup
 (defvar backup-path (expand-file-name "backup" "~/.cache/emacs"))
