@@ -34,5 +34,6 @@ git clone https://github.com/rurumimic/.emacs.d
   - [install](docs/install.md)
   - tutorial: `C-h t`
   - [key bindings](docs/key-bindings.md)
-  - packages
-
+  - [packages](docs/packages.md)
+    - magit
+    - git-guttor

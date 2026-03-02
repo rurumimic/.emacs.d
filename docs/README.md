@@ -2,7 +2,7 @@
 
 - [install](install.md)
 - [key bindings](key-bindings.md)
-- packages
+- [packages](packages.md)
 
 ## .emacs.d
 
@@ -25,4 +25,3 @@ Edit [init.el](/init.el):
 touch init.el
 emacs -q -l init.el
 ```
-

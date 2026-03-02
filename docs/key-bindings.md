@@ -97,3 +97,64 @@ M-a .. [word] M-b [word] M-f [word] .. M-e
 - `C-h x`: Describe command (`M-x` command help)
 - `C-h a`: Search commands by keyword (apropos-command)
 - `C-h i`: Open Info manuals
+
+---
+
+## Dired
+
+- `C-x d`: Open Dired (directory editor)
+- `C-x C-j`: Open Dired in current buffer's directory
+- `+`: Create new directory
+- `C-x C-f`: Open file or directory at point
+
+---
+
+## Magit
+
+### Open / View
+
+- `C-x g`: Open `magit-status`
+- `q`: Close (bury) current Magit buffer
+- `TAB`: Fold/unfold section at point
+- `RET`: Visit thing at point (commit, file, hunk, etc.)
+- `?`: Open Magit dispatch/help menu
+
+### Stage / Unstage
+
+- `s`: Stage change at point (file/hunk/region depending on section)
+- `S`: Stage all modified tracked files
+- `u`: Unstage change at point
+- `U`: Unstage all staged changes
+- `k`: Discard change at point (destructive)
+
+### Commit
+
+- `c c`: Create commit from staged changes
+- `c a`: Amend last commit
+- `c e`: Extend `HEAD` commit using staged changes (keep message)
+- `C-c C-c`: Confirm/finish (e.g., finalize commit message)
+- `C-c C-k`: Cancel current operation/message edit
+
+### Sync (Pull / Push)
+
+- `F f`: Pull from push-remote
+- `F u`: Pull from upstream
+- `P p`: Push current branch to push-remote
+- `p p`: Push current branch (version/config dependent shortcut)
+
+### Branch
+
+- `b b`: Checkout branch
+- `b c`: Create and checkout new branch
+- `b r`: Rename branch (often `b m` in default Magit)
+- `b k`: Delete branch
+
+### Rebase
+
+- `r i`: Start interactive rebase
+- `r r`: Continue rebase in progress
+
+### Log
+
+- `l l`: Show log of current branch (`HEAD`)
+- `l b`: Show log across all branches

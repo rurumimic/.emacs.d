@@ -21,3 +21,29 @@
 (setq delete-old-versions t)
 (setq vc-make-backup-files nil)
 (setq create-lockfiles nil)
+
+;; Packages
+(setq custom-file (locate-user-emacs-file "custom.el"))
+(when (file-exists-p custom-file)
+  (load custom-file))
+
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa" . "https://melpa.org/packages/") t)
+
+(use-package magit
+  :ensure t)
+(use-package git-gutter
+  :ensure t
+  :init (global-git-gutter-mode +1))
+
+;; Editor
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+
+;; Line numbers
+(global-display-line-numbers-mode 1)
+(setq display-line-numbers-type 'relative)
+
+;; Line truncation
+(setq-default truncate-lines t)
