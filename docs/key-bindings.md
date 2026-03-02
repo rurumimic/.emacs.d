@@ -137,10 +137,9 @@ M-a .. [word] M-b [word] M-f [word] .. M-e
 
 ### Sync (Pull / Push)
 
-- `F f`: Pull from push-remote
-- `F u`: Pull from upstream
+- `f u`: Fetch from upstream (download remote updates only)
+- `F u`: Pull from upstream (fetch + merge/rebase)
 - `P p`: Push current branch to push-remote
-- `p p`: Push current branch (version/config dependent shortcut)
 
 ### Branch
 
