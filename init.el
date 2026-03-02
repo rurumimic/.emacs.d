@@ -36,6 +36,9 @@
 (use-package git-gutter
   :ensure t
   :init (global-git-gutter-mode +1))
+;; (use-package evil
+;;   :ensure t
+;;   :config (evil-mode 1))
 
 ;; Editor
 (setq-default indent-tabs-mode nil)
